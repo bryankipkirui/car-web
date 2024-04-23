@@ -1,0 +1,129 @@
+html{
+    margin: 0;
+    padding: 0;
+    
+}
+.header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/project/banner-image-1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img{
+    width: 100px;
+    height: 50px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    margin: 4px;
+}
+
+.text-box{
+    text-align: center;
+    color: rgb(211, 180, 211);
+}
+
+.h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 70px;
+}
+
+.p{
+    font-size: 20px;
+    margin: 40px;
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    border: 2px solid rgb(211, 180, 211);
+    color: aqua;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: brown;
+    transition: 0.01s;
+    color: white;
+}
+
+.car{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.car h1{
+    font-size: 40px;
+    font-weight: bo;
+}
+
+.car p{
+    font-size: 15px;
+    color: rgb(33, 33, 33);
+}
+
+.row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.car-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    position: relative;
+}
+
+.car-col img{
+  width: 100%;
+}
+
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute; 
+    top: 0;
+    left: 0;
+}
+
+.layer:hover{
+    background: rgb(226, 0, 0, 0.7);
+    cursor: pointer;
+}
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: white;
+    bottom: 0;
+    left: 50%;
+    transform: translatex(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+
+
+
+
+
