@@ -54,7 +54,7 @@ html{
 }
 
 .btn:hover{
-    background-color: brown;
+    background-color: rgb(168, 133, 133);
     transition: 0.01s;
     color: white;
 }
